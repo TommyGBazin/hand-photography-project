@@ -53,6 +53,16 @@ img {
     padding-right: 20px;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    img {
+        max-width: 60%;
+    }
+}
 @media screen and (min-width: 1024px) {
     .container {
         flex-direction: row;
