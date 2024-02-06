@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Lordish";
+    src: url("./assets/font/Lordish-Regular.woff");
+}
+
 body {
     background-color: #1A1A1A;
     font-family: 'Times New Roman', Times, serif;
@@ -25,6 +30,7 @@ a {
 .text-xl {
     font-size: 40px;
     line-height: 48px;
+    font-family: "Lordish";
     margin: 24px 0px;
 }
 
