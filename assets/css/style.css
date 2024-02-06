@@ -7,6 +7,7 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 .container {
     display: flex;
@@ -19,7 +20,6 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    animation: fadeInUp 1s ease-out forwards;
 }
 
 .text-xl {
@@ -30,6 +30,30 @@ a {
 
 .text {
     color: grey;
+}
+
+.text p {
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+}
+
+.text p:nth-child(1) {
+    animation-delay: 1s;
+}
+.text p:nth-child(2) {
+    animation-delay: 3s;
+}
+.text p:nth-child(3) {
+    animation-delay: 5;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .image-container {
@@ -54,7 +78,6 @@ img {
 .text-small {
     font-size: 11px;
     padding-right: 20px;
-    color: white;
 }
 
 footer {
