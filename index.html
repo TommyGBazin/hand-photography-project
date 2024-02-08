@@ -7,6 +7,7 @@
     <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 <body>
+    <div id="loader" class="loader">Lorem ipsum dolor sit amet...</div>
     <div class="container">
         <div class="content">
             <p class="text-xl">Hu·mano</p>
@@ -27,5 +28,12 @@
     <footer>
         <a href="https://www.thomasgossetbazin.fr" class="text-small">© Thomas Gosset-Bazin</a>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            setTimeout(() => {
+                document.getElementById("loader").classList.add("hide-loader");
+            }, 3000);
+        });
+    </script>
 </body>
 </html>
