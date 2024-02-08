@@ -19,22 +19,37 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 28px;
     font-family: "Lordish";
     background-color: #1A1A1A;
     opacity: 1;
     transition: opacity 1s ease-out;
     z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
 }
 
 #loader.hide-loader {
     opacity: 0;
 }
 
+#hide-loader-btn {
+    padding: 24px 24px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white !important;
+    cursor: pointer;
+    border: none;
+    border-radius: 400px;
+    background-color: transparent;
+}
+
 a {
     text-decoration: none;
     color: white;
 }
+
 .container {
     display: flex;
     flex-direction: column-reverse;
