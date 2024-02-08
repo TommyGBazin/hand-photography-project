@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Lordish";
-    src: url('https://tommygbazin.github.io/hand-photography-project/assets/font/Lordish-Regular.woff');
+    src: url("/Users/thomasgossetbazin/Documents/FORMATION/Alternance/Studio Photo/Esthetik Hand/hand-photography-project-main/assets/font/Lordish-Regular.woff");
 }
 
 body {
@@ -38,7 +38,7 @@ a {
 .container {
     display: flex;
     flex-direction: column-reverse;
-    padding: 1%;
+    padding: 2%;
 }
 
 .content {
@@ -124,7 +124,7 @@ footer {
     }
     .content {
         align-items: start;
-        max-width: 56%;
+        max-width: 60%;
     }
     .text {
         max-width: 80%;
