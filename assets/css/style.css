@@ -74,6 +74,14 @@ a {
     animation-delay: 11s;
 }
 
+.text p:nth-child(4) {
+    animation-delay: 14s;
+}
+
+.text p:nth-child(5) {
+    animation-delay: 17s;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
