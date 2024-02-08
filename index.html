@@ -9,11 +9,10 @@
     <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="hidden">
-        <iframe width="300" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1196042467&color=%23000000&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=false"></iframe>
-        <a href="https://soundcloud.com/amenramusic" title="Amenra" target="_blank" class="link">Amenra</a> · <a href="https://soundcloud.com/amenramusic/ogentroost-alternate-mix" title="Ogentroost (Alternate Mix)" target="_blank">Ogentroost (Alternate Mix)</a>
+    <div id="loader" class="loader">
+        <span>Une main tend vers la lumière...</span>
+        <button id="hide-loader-btn">{&nbsp; Découvrir &nbsp;}</button>
     </div>
-    <div id="loader" class="loader">Une main tendue vers la lumière...</div>
     <div class="container">
         <div class="content">
             <p class="text-xl">Hu·mano</p>
@@ -21,7 +20,7 @@
                 <p>Une main se dresse à travers l’obscurité, comme la flèche d’une église transperce le ciel.</p>
                 <p>Cette photo est une mise en abime où les arts se confondent harmonieusement.</p>
                 <p>D’abord, l’église - œuvre architecturale - fascine par ses lignes graphiques. L’édifice divin nous rappelle à notre humanité.</p>
-                <p>Puis le tatouage vient habiller la main, devenue toile vivante. Les lignes du dessin s’animent au mouvement de la main.</p>
+                <p>Puis le tatouage vient habiller la main, devenue toile vivante. Ainsi, le monument s’anime pour transformer la pierre en courbe délicate.</p>
                 <p>Enfin, la photographie vient capturer un geste doux qui contraste avec le noir profond. On pourrait croire que la main sombre dans les ténèbres, mais c’est tout l’inverse. Elle représente l’humain, transporté par son histoire et ses croyances.</p>
             </span>
             <p>Matériel : Iphone 12 Pro</p>
@@ -33,12 +32,8 @@
     <footer>
         <a href="https://www.thomasgossetbazin.fr" class="text-small">© Thomas Gosset-Bazin</a>
     </footer>
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            setTimeout(() => {
-                document.getElementById("loader").classList.add("hide-loader");
-            }, 3000);
-        });
-    </script>
+    
+    <audio id="music" src="./assets/audio/Amenra - Ogentroost.mp3" preload="auto"></audio>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
